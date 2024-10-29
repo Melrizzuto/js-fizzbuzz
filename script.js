@@ -38,4 +38,9 @@ altrimenti (else if)
 
 */
 
+let fizz = "Fizz"; // parola per multipli di 3
+let buzz = "Buzz"; // parola per multipli di 5
+let fizzbuzz = "FizzBuzz"; // parola per multipli di 3 e 5
+let maxCount = 100; // conteggio massimo del contatore
+
 
