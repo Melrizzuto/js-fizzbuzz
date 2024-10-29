@@ -39,7 +39,6 @@ console.clear()
 
 let fizz = "Fizz"; // parola per multipli di 3
 let buzz = "Buzz"; // parola per multipli di 5
-let fizzbuzz = "FizzBuzz"; // parola per multipli di 3 e 5
 let maxCount = 100; // conteggio massimo del contatore
 
 
@@ -47,7 +46,7 @@ let maxCount = 100; // conteggio massimo del contatore
 
 for (let i = 1; i <= maxCount; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
-        console.log(fizzbuzz); // multipli di 3 e 5
+        console.log(fizz.concat(buzz)); // multipli di 3 e 5
     } else if (i % 3 === 0) {
         console.log(fizz); // multipli di 3
     } else if (i % 5 === 0) {
