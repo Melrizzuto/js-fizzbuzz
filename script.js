@@ -44,3 +44,16 @@ let fizzbuzz = "FizzBuzz"; // parola per multipli di 3 e 5
 let maxCount = 100; // conteggio massimo del contatore
 
 
+// ciclo di for
+
+for (let i = 1; i <= maxCount; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log(fizzbuzz); // multipli di 3 e 5
+    } else if (i % 3 === 0) {
+        console.log(fizz); // multipli di 3
+    } else if (i % 5 === 0) {
+        console.log(buzz); // multipli di 5
+    } else {
+        console.log(i); // per tutti gli altri numeri
+    }
+}
