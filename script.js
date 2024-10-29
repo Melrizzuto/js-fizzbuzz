@@ -1,7 +1,3 @@
-"use strict"
-console.clear()
-
-
 /* Consegna:
 
 Scrivi un programma che stampi i numeri da 1 a 100,
@@ -37,6 +33,9 @@ altrimenti (else if)
 - stampa 
 
 */
+
+"use strict"
+console.clear()
 
 let fizz = "Fizz"; // parola per multipli di 3
 let buzz = "Buzz"; // parola per multipli di 5
